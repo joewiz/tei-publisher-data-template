@@ -17,7 +17,7 @@ Other files in the template you may need to change:
 * collection.xconf - collection configuration file for your data
     - adjust Lucene index, facets and fields definitions to suit your application
     - if using other namespaces, make sure to add these on `index`; TEI and DocBook namespaces are added by default
-* index.xql - a function module by default imported into Lucene index via `<module uri="http://teipublisher.com/index" prefix="nav" at="index.xql"/>`. Adjust functions to suit your application. When changing this module remember to reindex the data collection for the changes to be reflected by the indexes.
+* index.xqm - a function module by default imported into Lucene index via `<module uri="http://teipublisher.com/index" prefix="nav" at="index.xqm"/>`. Adjust functions to suit your application. When changing this module remember to reindex the data collection for the changes to be reflected by the indexes.
 * build.xml - build file, used to create a xar package with ant
-* pre-install.xql - store index configuration 
-* post-install.xql - prepare the data collections
+* pre-install.xq - store index configuration 
+* post-install.xq - prepare the data collections
